@@ -13,7 +13,7 @@ public class QueueReader {
         while (true) {
             String text = tailer.readText();
             if (text == null)
-                Jvm.pause(10);
+                Jvm.nanoPause();
             else
                 System.out.println(text);
         }
