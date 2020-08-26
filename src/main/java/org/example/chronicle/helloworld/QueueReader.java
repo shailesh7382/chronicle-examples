@@ -4,6 +4,7 @@ import net.openhft.chronicle.core.Jvm;
 import net.openhft.chronicle.queue.ExcerptTailer;
 import net.openhft.chronicle.queue.impl.single.SingleChronicleQueue;
 import net.openhft.chronicle.queue.impl.single.SingleChronicleQueueBuilder;
+import org.example.chronicle.CodeStatics;
 
 public class QueueReader {
     public static void main(String[] args) {

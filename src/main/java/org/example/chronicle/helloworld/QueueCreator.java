@@ -3,6 +3,7 @@ package org.example.chronicle.helloworld;
 import net.openhft.chronicle.queue.ExcerptAppender;
 import net.openhft.chronicle.queue.impl.single.SingleChronicleQueue;
 import net.openhft.chronicle.queue.impl.single.SingleChronicleQueueBuilder;
+import org.example.chronicle.CodeStatics;
 
 import java.util.Scanner;
 
