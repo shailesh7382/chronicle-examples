@@ -7,9 +7,9 @@ import org.example.chronicle.CodeStatics;
 
 import java.util.Scanner;
 
-public class QueueCreator {
+public class QueueWriter {
     public static void main(String[] args) {
-        SingleChronicleQueue queue = SingleChronicleQueueBuilder.binary(CodeStatics.queue_path).build();
+        SingleChronicleQueue queue = SingleChronicleQueueBuilder.binary(CodeStatics.queue_path + QueueWriter.class.getPackage().getName()).build();
         ExcerptAppender appender = queue.acquireAppender();
         Scanner read = new Scanner(System.in);
         while (true) {

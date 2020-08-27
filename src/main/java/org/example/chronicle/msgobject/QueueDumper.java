@@ -1,6 +1,5 @@
-package org.example.chronicle.helloworld;
+package org.example.chronicle.msgobject;
 
-import net.openhft.chronicle.core.Jvm;
 import net.openhft.chronicle.queue.DumpQueueMain;
 import org.example.chronicle.CodeStatics;
 
